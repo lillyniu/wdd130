@@ -35,10 +35,19 @@ main {
     background-color #03045e 
 
 }
-
-.social-media-links {
-    text-decoration: none;
+main img { 
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
 }
+
+footer img {
+    width: 50px;
+
+}
+
 
 .hero img {
     display: block;
@@ -52,4 +61,14 @@ h1 {
 
 article {
     position: relative
+}
+
+.images {
+    position: relative
+    width 150px;
+    height:auto;
+}
+
+.social-media-links {
+    text-decoration: none;
 }
