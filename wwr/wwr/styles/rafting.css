@@ -1,9 +1,10 @@
 :root {
     background-color: #00b4d8 ;
-    font: "Lucida Console"
+    color-scheme: #03045e;
+    font-family: "Lucida Sans", "Bradley Hand"
     justify-content center
     max-width 840px
-    margin 
+    
 
 }
 
@@ -14,7 +15,7 @@
 
 
 head {
-    font: "Bradley Hand"
+    font-style: "Bradley Hand"
     font-size 130%
     text-aline center
     background-colon #caf0f8
@@ -53,15 +54,32 @@ footer img {
     display: block;
     width:100%
     height auto;
+    float: right;
+    margin: 20px
+}
+
+.hero div {
+    position: relative
+}
+
+.hero div h1 {
+    position: absolute
+}
+
+.hero div article {
+    position: absolute
+}
+
+
+#head-img {
+    width: 200px
+    
 }
 
 h1 {
     position: relative
 }
 
-article {
-    position: relative
-}
 
 .images {
     position: relative
