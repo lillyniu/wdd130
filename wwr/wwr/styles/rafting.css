@@ -23,6 +23,63 @@ head {
 
 }
 
+header {
+    display: grid;
+    grid-template-areas: topbar topbar topbar topbar topbar;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 5fr;
+    align-items: center;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main div {
+    display: grid;
+    gap: 10px
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+}
+
+div article {
+    display: 
+}
+
+main section {
+    display: flex;
+    gap: 10px
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main section {
+    display: grid;
+    gap 10px
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+
+}
+
+section h2 {
+    grid-row: 1 /2;
+    grid-column: 1 /10 ;
+    text-align: center;
+}
+
+section img {
+    grid row: 2/3;
+    grid-column: 
+}
 p {
     font: "Lucida Console"
     text-aline center
@@ -70,9 +127,13 @@ footer img {
     position: absolute
 }
 
+div h1 {
+    text-align: center;
+}
+
 
 #head-img {
-    width: 200px
+    width: 150px
     
 }
 
