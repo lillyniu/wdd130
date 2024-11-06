@@ -1,16 +1,9 @@
 <link rel="Heading-font:Bradley Hand">
     <link rel="Text-font:Lucida Console">
 
-    .240x wwr pic
+    .https://fonts.googleapis.com/css2family=
+    https://fonts.googleapis.com/css2family=
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        
-    </body>
-    </html>
+    <link rel="Heading-font:Amatic SC" href="https://fonts.google.com/specimen/Amatic+SC">
+    <link rel="Text-font:Lucida Sans" href="">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
