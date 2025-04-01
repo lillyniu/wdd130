@@ -1,16 +1,27 @@
+:root {
+    --primary-color: red;
+    --secondary-color: cream;
+    --font-family: 'Lora' , serif;
+    --background-color: #fffdd0;
+
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--primary-color);
     padding: 10px;
+    border-style: dotted;
 }
 
 nav a {
-    color:white;
+    color: black;
     display: block;
     padding: 20px;
+    
 }
 
 h1 {
-    color: darkblue;
+    color: black;
+    font-family: var(--font-family);
 }
 
 img {
@@ -34,7 +45,7 @@ aside {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2); 
     padding: 1rem;
-    background-color: #eee;
+    background-color: #f4cccc;
     color: #333;
     text-align: center;
 }
