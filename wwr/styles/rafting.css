@@ -40,21 +40,46 @@ article {
 
 article img {
     float: right;
+    width: 50px;
+    height: auto;
+    margin-left: 10px;
 }
 
 main {
     background-color: #cb997e;
 }
 
-div.hero {
+.hero {
     position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .hero img {
     display: block;
     width: 100%;
-    height: auto;
 }
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;*/
+}
+
+/*.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    max-width: 400px;
+}*/
 
 p {
     text-align: center
-}
+} 
+
