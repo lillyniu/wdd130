@@ -8,6 +8,14 @@
    font-family: Playfair Display;
 }
 
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 1rem;
+
+}
+
 body {
    background-color: var(--secondary-color);
 }
@@ -82,3 +90,24 @@ main {
 p {
     text-align: center
 } 
+
+.adventure-gallery {
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+
+.adventure-gallery figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
