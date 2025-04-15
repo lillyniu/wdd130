@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <meta name="description" content="Rafting website contact page">
+    <meta name="author" content="Lilly Niu">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">   
+</head>
+<body>
+    <header>
+        <img src="images/rafting_logo.jpeg" alt="logo">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contactus.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <section>
+            <h3>Company Information</h3>
+            <p>1564 S Concord St, Salt Lake City, UT 84104</p>
+            <p>Phone: (801) 867-0158</p>
+            <p>Email: info@funtimesahed_.com</p>
+      
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.5760362355117!2d-111.94339838459383!3d40.73499997932853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f4646d221fdb%3A0x9f5c2d00716a4690!2s1564%20S%20Concord%20St%2C%20Salt%20Lake%20City%2C%20UT%2084104!5e0!3m2!1sen!2sus!4v1713116974700!5m2!1sen!2sus" 
+            width="100%" 
+            height="300" 
+            allowfullscreen="" 
+            loading="lazy">
+          </iframe>
+          
+          </section>
+      
+          <section>
+            <h3>Meet Our Team</h3>
+            <div class="team">
+              <figure>
+                <img src="images/employee1.jpg" alt="Smiling guide Sarah">
+                <figcaption>Lilly Niu – Lead Guide</figcaption>
+              </figure>
+              <figure>
+                <img src="images/employee2.jpg" alt="Happy staff member Jake">
+                <figcaption>Lilly Diana – River Safety Specialist</figcaption>
+              </figure>
+              <figure>
+                <img src="images/employee3.jpg" alt="Friendly support manager Mia">
+                <figcaption>Lilly Peterson – Customer Experience</figcaption>
+              </figure>
+            </div>
+          </section>
+        <form action="thanks.html" method="get">
+          <fieldset>
+            <legend>Contact Information</legend>
+      
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" required>
+      
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+      
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone">
+      
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+          </fieldset>
+          <p>Purpose of Message:</p>
+          <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+          <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+          <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+  
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+      
+          <fieldset>
+            <legend>Subscribe to Newsletter?</legend>
+            <label><input type="radio" name="subscribe" value="yes"> Yes</label>
+            <label><input type="radio" name="subscribe" value="no"> No</label>
+          </fieldset>
+      
+          <button type="submit">Send Message</button>
+        </form>
+    </main>
+    <footer>
+        <p>© | 2025 | Fun Times Ahead | Lilly Niu</p>
+        <nav class="sociallinks">
+            <a href="facebook.com">Facebook</a>
+            <a href="Instagram.com">Instagram</a>
+            <a href="tiktok.com">TikTok</a>
+        </nav>
+    </footer>
+</body>
+</html>

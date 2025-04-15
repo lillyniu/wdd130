@@ -111,3 +111,41 @@ footer {
     justify-content: flex-end;
     gap: 1rem;
 }
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  fieldset {
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  legend {
+    font-weight: bold;
+  }
+  
+  label {
+    margin-top: 1rem;
+  }
+  
+  input, textarea {
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 0.7rem 1.5rem;
+    margin-top: 1rem;
+    background-color: #0288d1;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
