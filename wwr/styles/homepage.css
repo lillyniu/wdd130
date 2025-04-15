@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+  
+
+:root {
+   --background-color: #ffe8d6;
+   --secondary-color: #cb997e;
+   --accent-color: #6b705c;
+   font-family: Playfair Display;
+}
+
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 1rem;
+    background-color: #6b705c;
+
+}
+
+body {
+    background-color: #ffe8d6;
+}
+
+.newsletter {
+    background-color: #cb9973;
+}
+
+nav a {
+    color: black;
+    margin: 0 0.5rem;
+    font-weight: bold;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+  }
+  
+  .hero img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .grid-item h3 {
+    margin-top: 1rem;
+  }
+  
+  .grid-item p {
+    margin-top: 0.5rem;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+  
