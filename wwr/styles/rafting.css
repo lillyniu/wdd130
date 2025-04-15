@@ -149,3 +149,8 @@ form {
     border: none;
     cursor: pointer;
   }
+
+  .team img {
+    width: 100px;
+    height: auto;
+  }
